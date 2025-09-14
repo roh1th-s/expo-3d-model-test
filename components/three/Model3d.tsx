@@ -8,7 +8,7 @@ import { useAssets } from "expo-asset";
 import { GLTFLoader } from "three-stdlib/loaders/GLTFLoader";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
-export default function CarModel() {
+export default function Model3d() {
 	return (
 		<View style={styles.container}>
 			<Canvas camera={{ position: [0, 1, 3], fov: 60 }} style={{ height: 300, width: "100%" }}>

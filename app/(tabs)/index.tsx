@@ -1,7 +1,6 @@
 import { StyleSheet, View } from "react-native";
 
-
-import CarModel from "@/components/three/CarModel";
+import Model3d from "@/components/three/Model3d";
 
 export default function HomeScreen() {
 	return (
@@ -9,10 +8,10 @@ export default function HomeScreen() {
 			style={{
 				backgroundColor: "#A1CEDC",
 				padding: 16,
-        height: "100%",
+				height: "100%",
 			}}
 		>
-			<CarModel />
+			<Model3d />
 		</View>
 	);
 }
